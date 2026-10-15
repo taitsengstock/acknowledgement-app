@@ -42,16 +42,20 @@ export default function Overlay({ label }) {
         zIndex: 1000,
       }}
     >
-      <h1
-        style={{
-          fontSize: "2rem",
-          color: "#111",
-          textAlign: "center",
-          maxWidth: 700,
-        }}
-      >
-        This is a demo of "{label}'s" work
-      </h1>
+      <div style={{ textAlign: "center", maxWidth: 700 }}>
+        <h1
+          style={{
+            fontSize: "2rem",
+            color: "#111",
+            marginBottom: "0.5rem",
+          }}
+        >
+          This is a demo of {label}'s Acknowledgement
+        </h1>
+        <p style={{ fontSize: "1rem", color: "#555" }}>
+          This entry will contain the following
+        </p>
+      </div>
 
       <div
         style={{
