@@ -1,12 +1,11 @@
-// One placeholder label per employee slot. Replace "acknowledgement-N" with
-// real content later; for now each just renders its label.
+// One placeholder student name per slot. Replace with real student names later.
 module.exports = [
-  { label: "acknowledgement-1" },
-  { label: "acknowledgement-2" },
-  { label: "acknowledgement-3" },
-  { label: "acknowledgement-4" },
-  { label: "acknowledgement-5" },
-  { label: "acknowledgement-6" },
-  { label: "acknowledgement-7" },
-  { label: "acknowledgement-8" },
+  { label: "Student 1" },
+  { label: "Student 2" },
+  { label: "Student 3" },
+  { label: "Student 4" },
+  { label: "Student 5" },
+  { label: "Student 6" },
+  { label: "Student 7" },
+  { label: "Student 8" },
 ];
